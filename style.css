@@ -1,0 +1,39 @@
+#fotartalom{
+    display: grid;
+    grid-template-areas:
+    "s1 s4 s4"
+    "s1 kep s2"
+    "s3 s3 s3";
+}
+
+#sz1{
+    grid-area: s1;
+}
+
+#sz2{
+    grid-area: s2;
+    text-align: right;
+}
+
+#sz3{
+    grid-area: s3;
+}
+
+#sz4{
+    grid-area: s4;
+    color: red;
+}
+
+#k{
+    grid-area: kep;
+}
+
+#fotartalom *{
+    border: 1px black solid;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+#sz1, #sz3{
+    text-align: center;
+}
